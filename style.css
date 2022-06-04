@@ -72,7 +72,7 @@ picture img {
 }
 
 .btn-random img {
-  max-width: 50px;
+  width: 35px;
   margin-top: 2px;
   margin-right: 2px;
   margin-left: 2px;
