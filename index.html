@@ -5,22 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Secular+One&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <title>Advice Generator</title>
   </head>
   <body>
-    <section class="layout">
-      <div class="card">
+    <section class="card">
+      <div class="body-card">
         <div class="header-card">
           <h2>Adivice # <span id="id-card"></span></h2>
           <p id="txt-card" class="desc-card"></p>
         </div>
         <div class="footer-card">
+          <picture>
+            <img src="/img/pattern-divider-mobile.svg" alt="Line icon below the advice" class="picture-footer" />
+          </picture>
           <button type="button" class="btn-random" id="btns-random">
-            <img src="/img/icons8-dice-66.png" alt="" />
+            <img src="/img/icon-dice.svg" alt="" />
           </button>
         </div>
       </div>
     </section>
+
+    <script src="/script.js"></script>
   </body>
 </html>
