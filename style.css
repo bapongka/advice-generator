@@ -77,3 +77,25 @@ picture img {
   margin-right: 2px;
   margin-left: 2px;
 }
+
+footer {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: #323a49;
+  text-align: center;
+  position: fixed;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(199, 199, 199);
+  font-size: 15px;
+}
+
+footer span {
+  color: white;
+  font-size: 15px;
+}
+
+footer span:hover {
+  cursor: pointer;
+  color: rgb(0, 183, 207);
+}
